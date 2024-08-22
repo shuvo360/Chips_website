@@ -782,4 +782,8 @@ img {
     width: 80px;
     top: 13rem;
   }
+  .home__circle {
+    width: 550px;
+    height: 550px;
+  }
 }

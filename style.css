@@ -128,15 +128,20 @@ img {
 }
 
 .nav__logo {
+  padding-top: 0.5rem;
+  font-size: var(--h2-font-size);
   color: var(--white-color);
   font-family: var(--second-font);
   text-shadow: var(--shadow-text);
+  padding-bottom: 0.5rem;
 }
 .nav__close,
 .nav__toggle {
+  padding-top: 0.5rem;
   display: flex;
   font-size: 1.5rem;
   cursor: pointer;
+  padding-bottom: 0.5rem;
 }
 
 /* Navigation for mobile devices */
@@ -785,5 +790,164 @@ img {
   .home__circle {
     width: 550px;
     height: 550px;
+  }
+  .home__subcircle {
+    width: 430px;
+    height: 430px;
+  }
+  .home__images .home__img {
+    width: 400px;
+  }
+  .home__images img {
+    width: 95px;
+  }
+  .favorites__container {
+    grid-template-columns: 520px;
+    row-gap: 4rem;
+  }
+  .favorites__cheese-1,
+  .favorites__cheese-2 {
+    width: 80px;
+  }
+  .favorites__cheese-1 {
+    right: -45px;
+  }
+  .favorites__cheese-2 {
+    left: -80px;
+  }
+  .favorites__swiper {
+    max-width: 1000px;
+  }
+  .favorites__article,
+  .favorites__img {
+    width: 320px;
+  }
+  .favorites__leaf-1,
+  .favorites__leaf-2 {
+    width: 110px;
+  }
+  .care__container {
+    grid-template-columns: 500px 410px;
+    column-gap: 6rem;
+    align-items: center;
+    padding-block: 4rem;
+  }
+  .care__img {
+    width: 550px;
+    order: -1;
+  }
+  .care__item {
+    column-gap: 1rem;
+  }
+  .care__item i {
+    font-size: 2rem;
+  }
+  .banner {
+    padding-top: 4rem;
+  }
+  .banner__list {
+    column-gap: 6.5rem;
+  }
+  .banner__item {
+    column-gap: 1rem;
+  }
+  .banner__item i {
+    font-size: 4rem;
+  }
+  .banner__item span {
+    font-size: var(--h1-font-size);
+  }
+  .products__container {
+    padding-top: 7.5rem;
+  }
+  .products__content {
+    grid-template-columns: repeat(3, 250px);
+    gap: 10rem 4rem;
+  }
+  .products__card {
+    padding: 10rem 3rem 3rem;
+    border-radius: 1.5rem;
+  }
+  .products__img {
+    width: 170px;
+    top: -5rem;
+  }
+  .products__subtitle {
+    font-size: var(--normal-font-size);
+  }
+  .products__price {
+    font-size: var(--h3-font-size);
+  }
+  .products__button {
+    right: 2rem;
+    bottom: 2rem;
+    padding: 6px;
+    font-size: 1.5rem;
+    border-radius: 0.5rem;
+  }
+  .products__crab,
+  .products__hamburger,
+  .products__cheese {
+    width: 80px;
+  }
+  .products__crab {
+    top: 2rem;
+  }
+  .products__hamburger {
+    top: 30rem;
+    right: 3rem;
+  }
+  .products__cheese {
+    left: 1rem;
+    margin: initial;
+  }
+  .contact {
+    display: block;
+  }
+  .contact__container {
+    border-radius: 4rem;
+  }
+  .contact__content {
+    grid-template: 330px / 360px 320px;
+    justify-content: center;
+    align-items: flex-start;
+    column-gap: 10rem;
+    padding-top: 2rem;
+  }
+  .contact__title {
+    margin-bottom: 0.75rem;
+  }
+  .contact__img {
+    width: 320px;
+    transform: translateY(-6rem);
+  }
+  .contact__crab,
+  .contact__shrimp,
+  .contact__meat {
+    width: 80px;
+  }
+  .contact__shrimp {
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 20rem;
+  }
+  .contact__crab {
+    top: 5rem;
+    left: 4rem;
+  }
+  .contact__meat {
+    right: initial;
+    left: 12rem;
+    bottom: 1rem;
+  }
+  .footer {
+    padding-block: 5rem 3rem;
+  }
+  .footer__container {
+    row-gap: 3rem;
+  }
+  .scrollup {
+    right: 3rem;
   }
 }
